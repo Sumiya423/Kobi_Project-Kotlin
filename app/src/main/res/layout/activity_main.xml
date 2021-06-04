@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_blue"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bengali Poets"
+        android:textColor="#fff"
+        android:textSize="30dp">
+    </TextView>
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#49B4E4"
+                android:id="@+id/nazrulBtn"
+                android:text="কাজী নজরুল ইসলাম"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#49B4E4"
+                android:id="@+id/rabindraBtn"
+                android:text="রবীন্দ্রনাথ ঠাকুর"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#49B4E4"
+                android:id="@+id/humayunBtn"
+                android:text="হুমায়ূন আহমেদ"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#49B4E4"
+                android:id="@+id/sufiaBtn"
+                android:text="সুফিয়া কামাল"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#49B4E4"
+                android:id="@+id/sukumarBtn"
+                android:text="সুকুমার রায়"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#49B4E4"
+                android:id="@+id/johirBtn"
+                android:text="জহির রায়হান"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#49B4E4"
+                android:id="@+id/bolaichadBtn"
+                android:text="বলাইচাঁদ মুখোপাধ্যায়"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
